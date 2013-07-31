@@ -8,5 +8,3 @@ Press 't' for toggling transparency. move cursor right/left to change the amount
 Move cursor up/down to change the color range.
 
 have fun!
-
-

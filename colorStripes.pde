@@ -1,3 +1,5 @@
+//licenced under GPLv3. read: http://www.gnu.org/licenses/gpl.txt
+
 void setup(){
   size(displayWidth, displayHeight);
   colorMode(HSB, width);

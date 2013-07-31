@@ -1,7 +1,7 @@
 //licenced under GPLv3. read: http://www.gnu.org/licenses/gpl.txt
-
+//by Tom Brewe 2013
 void setup(){
-  size(displayWidth, displayHeight);
+  size(displayWidth, displayHeight, P2D);
   colorMode(HSB, width);
   noStroke();
 }

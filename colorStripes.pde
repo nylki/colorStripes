@@ -10,7 +10,7 @@ void setup(){
 
 float time = 0.0;
 int colorBlocks = 5;
-float transparency = 35;
+float transparency = 40;
 
 void draw(){
   time = time + 0.01;
@@ -41,9 +41,9 @@ void keyPressed(){
     saveFrame("stripes###.tif");
   }
   else if (key == 't'){
-    transparency = (transparency == height) ? 35 : height;
+    transparency = (transparency == height) ? 40 : height;
   } 
-  else if (key >= '0' && key < '9'){ //in ascii values
+  else if (key >= '0' && key <= '9'){ //in ascii values
    colorBlocks = Integer.parseInt("" + key);
    if(colorBlocks == 0) colorBlocks = 10;
  }

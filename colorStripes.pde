@@ -6,13 +6,14 @@ void setup(){
 
 //toggle transparency with 't'
 //take a snapshot as .tif with 'r'
+//change amount of similiar colored blocks by press 1-9
 
 float time = 0.0;
 int colorBlocks = 5;
 float transparency = 35;
 
 void draw(){
-  time = time + 0.04;
+  time = time + 0.01;
   float stripeCount = map(mouseX, 0, width, 1,300);
   int sameColorStripeCount = ceil(stripeCount/colorBlocks);
   float stripeWidth = (width/stripeCount);//  * map(noise(time+6000),0,1, 0.5, 1.5); 
@@ -40,7 +41,7 @@ void keyPressed(){
     saveFrame("stripes###.tif");
   }
   else if (key == 't'){
-    transparency = (transparency == height) ? 50 : height;
+    transparency = (transparency == height) ? 35 : height;
   } 
   else if (key >= '0' && key < '9'){ //in ascii values
    colorBlocks = Integer.parseInt("" + key);

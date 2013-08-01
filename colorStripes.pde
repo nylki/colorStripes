@@ -36,7 +36,6 @@ void draw(){
    for(int j=0; j<=sameColorStripeCount; j++){
      float b;
      float s = b = map(noise((i+j)),0,1, 200, width-100);    
-     b += 70; 
      if(grey && (i == 0 || i >= (colorBlocks*sameColorStripeCount) - sameColorStripeCount)) s = borderBlockSaturation;
      fill(color(startHue + hueNoise, s + saturationNoise, b + brightnessNoise),transparency);
      rect((i+j)*stripeWidth,0, stripeWidth, height);

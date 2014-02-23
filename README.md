@@ -1,6 +1,8 @@
 colorStripes
 ============
 
+video of the program in action: https://vimeo.com/87392446
+
 Create colorful striped images with this processing sketch. 
 
 * Press 'r' for saving a frame as .tif (makes great desktop backgrounds!).

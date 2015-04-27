@@ -21,6 +21,7 @@ void setup(){
 //toggle first and last block to be desaturated (grey) by pressing 'g'
 
 
+
 void draw(){
   time = time + 0.02;
   float stripeCount = map(mouseX, 0, width, 1,100);
@@ -50,17 +51,17 @@ void draw(){
 
 
 
-void keyPressed(){
-  if(key == 'r'){
+void keyPressed() {
+  if(key == 'r') {
     saveFrame("screencaps/scrstripes###.jpg");
   }
-  else if (key == 't'){
+  else if (key == 't') {
     transparency = (transparency == height) ? 50 : height;
   }
-  else if(key == 'g'){
+  else if(key == 'g') {
     grey = !grey;
   }
-  else if (key >= '0' && key <= '9'){ //in ascii values
+  else if (key >= '0' && key <= '9') { //in ascii values
    colorBlocks = Integer.parseInt("" + key);
    if(colorBlocks == 0) colorBlocks = 10;
  }

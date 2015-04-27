@@ -1,6 +1,8 @@
 colorStripes
 ============
 
+[Live Demo!](http://nylkiway.net/colorstripes/index.html)
+
 video of the program in action: https://vimeo.com/87392446
 
 Create colorful striped images with this processing sketch. 

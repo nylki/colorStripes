@@ -1,7 +1,7 @@
 colorStripes
 ============
 
-[Live Demo!](http://nylkiway.net/colorstripes/index.html)
+[Live Demo!](http://nylkiway.net/colorstripes.html)
 
 video of the program in action: https://vimeo.com/87392446
 

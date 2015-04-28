@@ -1,10 +1,10 @@
 colorStripes
 ============
 Create colorful striped images with this [p5.js](http://p5js.org/) sketch. 
+
 [Live Demo!](http://nylkiway.net/colorstripes.html)
 
 video of the program in action: https://vimeo.com/87392446
-
 
 
 * Press 'r' for saving a frame as .tif (makes great desktop backgrounds!).

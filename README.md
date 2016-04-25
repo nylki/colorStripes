@@ -4,7 +4,7 @@ colorStripes
 
 
 Create colorful striped images with this [p5.js](http://p5js.org/) sketch.
-- [live demo!](http://nylkiway.net/colorstripes.html)
+- [live demo!](http://nylkiway.net/colorstripes/)
 - [video of the program in action](https://vimeo.com/87392446)
 
 controls

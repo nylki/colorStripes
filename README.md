@@ -1,6 +1,6 @@
 colorStripes
 ============
-[![](http://nylkiway.net/colorstripes/colorstripes_screenshot.png)](http://nylkiway.net/colorstripes.html)
+[![](http://nylkiway.net/colorstripes/colorstripes_screenshot.png)](http://nylkiway.net/colorstripes)
 
 
 Create colorful striped images with this [p5.js](http://p5js.org/) sketch.

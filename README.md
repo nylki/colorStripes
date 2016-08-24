@@ -1,10 +1,10 @@
 colorStripes
 ============
-[![](http://nylkiway.net/colorstripes/colorstripes_screenshot.png)](http://nylkiway.net/colorstripes)
+[![](http://nylkiway.net/colorstripes/colorstripes_screenshot.png)](http://nylki.github.io/colorStripes/)
 
 
 Create colorful striped images with this [p5.js](http://p5js.org/) sketch.
-- [live demo!](http://nylkiway.net/colorstripes/)
+- [live demo!](http://nylki.github.io/colorStripes/)
 - [video of the program in action](https://vimeo.com/87392446)
 
 controls
